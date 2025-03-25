@@ -1,0 +1,4 @@
+
+tcpdump -i ens33 -vvv host 192.168.0.33 and port 80
+tcpdump -i ens33 src 192.168.0.33 and port 80
+tcpdump -i eth0 src 192.168.1.100 and \( port 80 or port 443 \)
